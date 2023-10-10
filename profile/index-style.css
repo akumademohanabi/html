@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.text-red{
+    color: red;
+}
+
+.text-blue{
+    color: blue;
+}
+
+.bg-green{
+    background-color: darkgreen;
+}
+
+span{
+    background-color: blue;
+}
+
+.bg-color{
+    background-color: red;
+
+}
+
+.color-text{
+    color: white;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+}
