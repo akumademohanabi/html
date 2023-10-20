@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+
+
+.required::after {
+    content: "必須";
+    background-color: blue;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    min-width: 10px;
+    padding: 3px 7px;
+    margin: 0px 5px;
+    line-height: 1;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+  }
+
+
+
+    table,th, td {
+        border: solid 1px white;
+        border-collapse: collapse;
+    }
+
+    th{
+        background-color: chocolate;
+        font-family: "ＭＳ Ｐゴシック", serif;
+        
+    }
+
+    td{
+        background-color: tan;
+        font-family: "UD デジタル 教科書体 NP-B", serif;
+    }
+
+    th, td{
+        padding: 10px;
+        margin: 60px;
+
+    }
+
+    table, th, td{
+        color: #fff;
+    }
+
