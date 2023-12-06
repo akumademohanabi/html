@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- reset.css modern-css-reset -->
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Yuji+Syuku&display=swap" rel="stylesheet">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        ntegrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="all-style.css">
+    <link rel="stylesheet" href="News-style.css">
+    <link rel="icon" href="img/f_f_event_1_svg_f_event_1_0.svg">
+    <title>HTML/CSS中間課題</title>
+</head>
+
+<body>
+
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">メインページ</a></li>
+                <li><a href="IT.html">ITの歴史</a></li>
+                <li><a href="Company.html">気になる企業</a></li>
+                <li><a href="#">最近のニュース/出来事</a></li>
+                <li><a href="self-introduction.html">自己紹介ページ</a></li>
+            </ul>
+
+            <a href="index.html"><button type="button" class="btn btn-primary">メインページ</button></a>
+            <a href="#"><button type="button" class="btn btn-secondary">最近のニュース</button></a>
+        </nav>
+    </header>
+
+    <!-- ページ先頭へ戻るボタン（自分自身へ遷移） -->
+    <div id="page_top"><a href="#">page_top</a></div>
+
+
+    <main>
+        <h1><b>2023年の出来事</b></h1>
+
+        <h2>月毎のニュース</h2>
+        <div class="News-list">
+            <section>
+                <h3>１月～３月</h3>
+                <ul>
+                    <li><a href="#corona">コロナ ５類引き下げ</a></li>
+                    <li><a href="#synsyn">シャンシャン 中国返還</a></li>
+                    <li><a href="#samurai">侍ジャパン WBCで優勝</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3>４月～６月</h3>
+                <ul>
+                    <li><a href="#sudan">スーダン首都で空爆</a></li>
+                    <li><a href="#igiris">英 70年ぶり戴冠式</a></li>
+                    <li><a href="#syougi">藤井聡太聡太 最年少名人</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3>７月～１０月</h3>
+                <ul>
+                    <li><a href="#bigmorter">ビッグモーター不正請求</a></li>
+                    <li><a href="#johnny's">ジャニーズ性被害問題</a></li>
+                    <li><a href="#baseball">阪神38年振りに優勝</a></li>
+                    <li><a href="#Halloween">渋谷 ハロウィン目的の来街を禁止</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3>詳しくはここをクリック</h3>
+                <ul>
+                    <li><a href="https://www.jijiphoto.jp/ext/news/year/2023/">2023 topNews</a></li>
+                </ul>
+
+            </section>
+        </div>
+
+
+        <div class="News-item">
+            <h3>１月～３月</h3>
+            <ul>
+                <li id="corona"><span>
+                        <h4>１月　コロナ ５類引き下げ</h4>
+                    </span>
+                    <div class="box">
+                        <img src="News-img/ダウンロード (1).jpg" alt="コロナ">
+                        <img src="News-img/images (2).jpg" alt="コロナ２">
+                    </div>
+                    <div class="box-016">
+                        <p>国は令和５年５月８日をもって、新型コロナウイルス感染症の感染症法上の位置づけを2類相当から季節性インフルエンザと同等の5類に引き下げることとし、<br>
+                            この位置付けの変更と合わせて、基本的対処方針及び業種別ガイドラインを廃止することとなった。</p>
+                    </div>
+
+
+                </li>
+                <li id="synsyn"><span>
+                        <h4>２月　シャンシャン 中国返還</h4>
+                    </span>
+                    <div class="box">
+                        <img src="News-img/ダウンロード (2).jpg" alt="シャンシャン">
+                        <img src="News-img/ダウンロード (10).jpg" alt="シャンシャン２">
+                    </div>
+
+                    <div class="box-016">
+                        <p>令和５年２月２１日、上野動物園のシャンシャンがたくさんの人に見守られて中国へ返還された。<br>
+                            返還の理由としては、日本にやってくるパンダは繁殖研究目的で中国から貸与されているため。<br>
+                            そのため中国との協定を介して日本にきたパンダは基幹を過ぎたら返還されなければならない。</p>
+                    </div>
+
+                </li>
+                <li id="samurai"><span>
+                        <h4>３月　侍ジャパン WBCで優勝</h4>
+                    </span>
+                    <div class="box">
+                        <img src="News-img/ダウンロード (3).jpg" alt="侍ジャパン">
+                        <img src="News-img/ダウンロード (11).jpg" alt="侍ジャパン２">
+                    </div>
+
+                    <div class="box-016">
+                        <p>令和５年３月２１日「2023 WORLD BASEBALL CLASSIC」の決勝戦、日本VSアメリカとの試合で<br>
+                            日本がアメリカを３対２で下し、７戦全勝で３大会ぶり３回目の優勝を果たした。<br>
+                            出場したメンバーには、岩手が誇るプロ野球選手の大谷翔平選手や、佐々木郎希選手、ダルビッシュ有選手ら<br>
+                            他３７名の選手が参加した。</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="News-item">
+            <h3>４月～６月</h3>
+            <ul>
+                <li id="sudan"><span>
+                        <h4>４月　スーダン首都で空爆</h4>
+                    </span>
+                    <div class="box">
+                        <img src="News-img/ダウンロード (6).jpg" alt="空爆">
+                        <img src="News-img/ダウンロード (12).jpg" alt="空爆２">
+                    </div>
+
+                    <div class="box-016">
+                        <p>スーダンとエジプトの領有権問題による戦争が苛烈を増している。<br>
+                            ２０２３年６月１８日、スーダンの首都ハルツームにて空爆が起きた。<br>
+                            子供５人を含む１７人が死亡する惨劇が起きた。</p>
+                    </div>
+                </li>
+                
+                <li id="igiris"><span>
+                        <h4>５月　英 70年ぶり戴冠式</h4>
+                    </span>
+                    <div class="box">
+                        <img src="News-img/ダウンロード (4).jpg" alt="戴冠">
+                        <img src="News-img/ダウンロード (13).jpg" alt="戴冠２">
+                    </div>
+                    <div class="box-016">
+                        <p>２０２３年５月６日、イギリスのチャールズ国王が戴冠式を執り行った。<br>
+                            エリザベス女王以来、７０年ぶりの戴冠式となった。</p>
+                    </div>
+                </li>
+
+                <li id="syougi"><span>
+                        <h4>６月　藤井聡太 最年少名人</h4>
+                    </span>
+                    <div class="box">
+                        <img src="News-img/ダウンロード (5).jpg" alt="将棋">
+                        <img src="News-img/ダウンロード (14).jpg" alt="将棋２">
+                    </div>
+
+                    <p>将棋の藤井聡太 竜王(20)が一日、２０歳１０か月で初の名人位を獲得した。<br>
+                        谷川浩司 十七世名人(61)が１９８３年に達成していた名人獲得の最年少記録(２１歳２カ月)を４０年ぶりに更新した。</p>
+                </li>
+            </ul>
+        </div>
+        <div class="News-item">
+            <h3>７月～１０月</h3>
+            <ul>
+                <li id="bigmorter"><span>
+                        <h4>７月　ビッグモーター不正請求</h4>
+                    </span>
+                    <div class="box">
+                        <img src="News-img/ダウンロード.jpg" alt="ビッグモーター">
+                        <img src="News-img/ダウンロード (15).jpg" alt="ビッグモーター２">
+                    </div>
+
+                    <p>損保会社がビッグモーターの不正請求の疑いを持ち、調査したところ<br>
+                        ビッグモーターは顧客から修理依頼があった自動車に、会社側でさらに故意に傷をつけることで<br>
+                        保険金請求額を水増ししているという不正請求が世間に明かされた。</p>
+                </li>
+                <li id="johnny's"><span>
+                        <h4>８月　ジャニーズ性被害問題</h4>
+                    </span>
+                    <div class="box">
+                        <img src="News-img/ダウンロード (7).jpg" alt="ジャニーズ">
+                        <img src="News-img/ダウンロード (16).jpg" alt="ジャニーズ２">
+                    </div>
+
+                    <p>ジャニーズ事務所が設けた「再発防止特別チーム」が29日に会見し、<br>
+                        故ジャニー喜多川氏による４０年以上に及ぶ性加害を認定した。<br>
+                        被害者は478人でそのうちの325人が補償を求め、在籍確認がとれたのは現時点約150人にも及ぶ。</p>
+                </li>
+                <li id="baseball"><span>
+                        <h4>９月　阪神38年振りに優勝</h4>
+                    </span>
+                    <div class="box">
+                        <img src="News-img/ダウンロード (8).jpg" alt="阪神">
+                        <img src="News-img/ダウンロード (17).jpg" alt="阪神２">
+                    </div>
+                    <p>プロ野球チーム「阪神タイガース」が38年ぶりにセ・リーグで日本一に輝いた。<br>
+                        しかし、阪神優勝となった時に道頓堀川にて37人が飛び込んだ。</p>
+                </li>
+                <li id="#Halloween"><span>
+                        <h4>１０月　渋谷 ハロウィン目的の来街を禁止</h4>
+                    </span>
+                    <div class="box">
+                        <img src="News-img/ダウンロード (9).jpg" alt="ハロウィン">
+                        <img src="News-img/ダウンロード (18).jpg" alt="ハロウィン２">
+                    </div>
+                    <p>渋谷区は、ハロウィン時の雑踏事故防止のため異例の呼びかけを行った。<br>
+                        渋谷区の飲食店等は、いつもよりも閉店時間を早めたり、警察や警備も厳重な警戒をしていたことで<br>
+                        今までよりもバカ騒ぎをする人は居なくなった。</p>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2023 Morijyobi. All rights reserved</p>
+    </footer>
+
+
+</body>
+
+</html>

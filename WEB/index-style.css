@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+
+
+main{
+    background-color: 	#6A5ACD;
+    padding: 0.5rem;
+    width: 70%;
+}
+
+main{
+    padding: 0.5rem;
+}
+
+main article{
+    background-color: lightgreen;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+
+main section{
+    padding: 0.5rem;
+}
+
+
+
+aside{
+    background-color: lightskyblue;
+    width: 450px;
+    height: 450px;
+    padding: 0.5rem;
+}
+
+.container{
+    display: flex;
+   
+}

@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+header {
+    background-color: cadetblue;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 0;
+}
+
+header ul li {
+    width: 20%;
+    text-align: center;
+}
+
+header ul li+li {
+    border-left: 1px solid black;
+}
+
+header ul li a {
+    display: block;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+    /* 太字にするプロパティ*/
+    font-weight: bold;
+}
+
+footer {
+    background-color: darkcyan;
+    padding: 0.5rem;
+}
+
+footer p{
+    color: white;
+}
+
+body {
+    min-width: 700px;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+body{
+    background-image: url(img/images\ \(1\).jpg);
+    color: white;
+}
+
+h1 {
+    color: white;/*文字色*/
+    /*線の種類（点線）2px 線色*/
+    border-bottom: dashed 2px white;
+  }
+
+.breadcrumbs {
+    list-style: none;
+    display: flex;
+}
+
+.breadcrumbs li::after {
+    content: ">";
+    padding: 0 0.5rem;
+}
+
+.breadcrumbs li:last-child::after {
+    content: "";
+}
+
+.breadcrumbs li a:link {
+    color: 	#FF0000;
+}
+
+.breadcrumbs li a:visited {
+    color: 	#00FFFF;
+}
+
+.breadcrumbs li a:hover {
+    text-decoration: none;
+}
+
+
+
+

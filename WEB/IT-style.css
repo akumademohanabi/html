@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+
+
+main{ 
+    width: 50%;
+  
+    justify-content: space-evenly;
+    margin: 2rem auto;
+    min-width: 800px;
+    
+}
+
+.frame{
+    margin-bottom: 2rem;
+    display: flow-root; /*真横から文字を始めるためのプロパティ*/
+}
+
+h1{
+    margin-bottom: 0.8rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-top: solid 	orange;
+    border-bottom: solid	orange;
+}
+
+h3{
+    border-bottom: solid red;
+    text-align: center;
+}
+
+.frame p{
+    line-height: 1.6;  /*文字の行の間隔の指定*/
+    letter-spacing: 0.05em;  /*文字の横間隔の指定*/
+    padding-top: 1rem;
+}
+
+table,th,td{
+    border: solid 2px black;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+}
+
+th,td{
+    padding: 10px;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.A{
+    width: 300px;
+    height: 400px;
+    margin: 0px auto 20px auto;
+    /*画像の真横から文字を始める*/
+    float: left; /*右にしたいときはright*/
+}
+
+.A img{
+    width: 100%;
+    height: 100%;
+    padding-right: 1rem;
+    object-fit: contain;
+}
+
+

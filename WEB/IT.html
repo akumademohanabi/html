@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- reset.css modern-css-reset -->
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Yuji+Syuku&display=swap" rel="stylesheet">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="all-style.css">
+    <link rel="stylesheet" href="IT-style.css">
+    <link rel="icon" href="img/f_f_event_1_svg_f_event_1_0.svg">
+
+    <title>HTML/CSS中間課題</title>
+</head>
+
+<body>
+
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">メインページ</a></li>
+                <li><a href="#">ITの歴史</a></li>
+                <li><a href="Company.html">気になる企業</a></li>
+                <li><a href="News.html">最近のニュース/出来事</a></li>
+                <li><a href="self-introduction.html">自己紹介ページ</a></li>
+            </ul>
+
+            <a href="index.html"><button type="button" class="btn btn-primary">メインページ</button></a>
+            <a href="#"><button type="button" class="btn btn-secondary">ITの歴史</button></a>
+        </nav>
+    </header>
+
+    <main>
+        <h1><b>日本のパーソナルコンピュータの歴史</b></h1>
+        <article>
+            <div class="frame">
+                <div class="A"><img src="IT-img/TK-80.jpg" alt="マイコン"></div>
+
+                <h3>ワンボードマイコン・キットの時代</h3>
+                <p>黎明期の初端においては、日本でも米国と同様に、
+                    エンジニアや好事家が独自に部品を調達してワンボードマイコンなどを設計・制作し、
+                    あるいはもっぱら輸入された評価キットやワンボードマイコンなどが
+                    秋葉原の電子デバイス店などの小売店で細々と売られる程度であった。</p>
+                <p>しかし米国でAltair 8800（1974年-）とその互換機が登場すると、
+                    これらの輸入品を主力に取り扱う店舗も日本で登場し、
+                    日本でも「個人向けマイクロコンピュータの歴史」が始まった</p>
+                <p>日本では1976年5月に東芝よりTLCS-12A EX-0（定価99,000円）が発売された。
+                    電源装置を別途用意すれば、12ビットのLED表示とディップスイッチを使って
+                    テレタイプ端末などの入出力機器を必要とせずに動作させることができる
+                    日本国産初のワンボードマイコンである。</p>
+            </div>
+
+            <div class="frame">
+                <h3>8ビットパソコン・BASICと群雄割拠の時代</h3>
+                <div class="box">
+                    <div class="A"><img src="IT-img/Hitachi_Basic_Master_MB-6880.jpg" alt="hitsti"></div>
+                    <div class="A"><img src="IT-img/180px-Sharp_MZ-80K_ubt.jpg" alt="syape"></div>
+                </div>
+                
+                <p>ワンボードマイコンは、実用性には程遠いものだったので、
+                    次の段階として商品としての体裁を整えた製品が次々と登場することになる。
+                    当初はこれらの製品も引き続き「マイコン」と呼ばれていたが、
+                    次第に「パーソナルコンピュータ」（パソコン）と呼ばれることが多くなっていった。</p>
+            </div>
+
+            <div class="frame">
+                <div class="A"><img src="IT-img/330px-Philips_MSX2_computer_at_Play_Expo_2013_(1).jpg" alt="8bit"></div>
+
+                <h3>8ビットパソコンの終焉</h3>
+                <p>1982年に後述のPC-9800シリーズが登場する一方で、
+                    MSXが出た同じ年の1983年、任天堂からファミリーコンピュータが登場。
+                    機能の絞込みによる低価格を武器にアーケードゲームの各メーカーが
+                    参入してタイトルが豊富に出揃い、爆発的に普及した。
+                    コピーに悩まされていたゲームメーカーは、次第に、
+                    コピーが難しいファミリーコンピュータ用に開発するようになった。</p>
+            </div>
+
+            <div class="frame">
+                <div class="A"><img src="IT-img/330px-Ibm300pl.jpg" alt="32bit"></div>
+
+                <h3>32ビットパソコン・Windowsの時代</h3>
+                <p>1990年ごろにはFM TOWNSのように日本国産機も32ビットCPUを採用する機種が現れた。
+                    同じ頃PC/AT互換機で日本語の取り扱いが可能になる
+                    OS「DOS/Vが登場し、また1991年にはGUIを使ったWindows 3.0が発売され、
+                    世界的な標準機である「PC/AT互換機」が上級ユーザを中心に日本に流入し始めた。
+                    この頃にOADGも結成され、日本国内独自のビジネスパソコンや
+                    AX機を発売していたメーカーはPC/AT互換機路線に転換した。</p>
+                <p>1993年に改良されたWindows 3.1が発売されると、
+                    統一された規格に沿った部品が世界的に豊富に流通し、
+                    コストの面でも有利なPC/AT互換機が売れるようになった。
+                    また、CPUやバス、グラフィックカード、ハードディスクの高速化と
+                    メモリの低価格化により、日本国産機が特殊なハードで実現していた機能をソフトによる
+                    力技」でも実現できるようになった。</p>
+            </div>
+
+            <div class="frame">
+                <h1>出荷台数の推移で見る日本のパソコン史</h1>
+                <table>
+                    <tr>
+                        <th>1978年</th>
+                        <td>初期8ビットパソコンが登場</td>
+                        <td>シャープ、日立など</td>
+                    </tr>
+
+                    <tr>
+                        <th>1984年</th>
+                        <td>8ビットパソコンの最盛期。8ビットパソコンの出荷台数がピークに。</td>
+                        <td>パソコンには含まれていないが8ビットゲーム機ファミリーコンピュータも1983年に登場</td>
+                    </tr>
+
+                    <tr>
+                        <th>1986年</th>
+                        <td>8ビットパソコンと16ビットパソコンの出荷台数が逆転。</td>
+                        <td>ビジネス用途を中心に16ビットパソコンが増加した。</td>
+                    </tr>
+
+                    <tr>
+                        <th>1989年</th>
+                        <td>日本で一足先にパソコンよりも早く普及したワープロ専用機の出荷台数は1989年に271万台でピークとなった。</td>
+                        <td>この頃まではまだパソコンの出荷台数の方が少なかった。</td>
+                    </tr>
+
+                    <tr>
+                        <th>1990年</th>
+                        <td>16ビットパソコンの出荷台数がピークに。32ビットパソコン時代への転換がはじまる。</td>
+                        <td>翌年には32ビットパソコンの出荷台数が上回り、16ビットパソコンは急速に減少した。</td>
+                    </tr>
+
+                    <tr>
+                        <th>1991年</th>
+                        <td>日本国内のパソコンの出荷台数が初の減少に。前年1990年に出荷台数がいったんピークを記録し206万台となった。</td>
+                        <td>1991年は190万台に減少し停滞時期となった。</td>
+                    </tr>
+
+                    <tr>
+                        <th>1993~1996年</th>
+                        <td>日本国内のパソコン出荷台数が急増。</td>
+                        <td>パソコンの価格破壊、コストパフォーマンスの急上昇がはじまった。
+                            MS-DOS の時代から Windows 時代への本格的な転換がはじまる。</td>
+
+                    </tr>
+
+                    <tr>
+                        <th>1997年~2000年</th>
+                        <td>一度出荷台数が減少し、再び急増。</td>
+                        <td>液晶デスクトップパソコンや14インチ超の
+                            大型液晶を搭載したデスクノートパソコンの普及が本格化した。
+                            また、この頃から携帯電話によるインターネット接続など
+                            高機能化が進み、パソコンと競合することになる</td>
+                    </tr>
+
+                    <tr>
+                        <th>2001年~2006年</th>
+                        <td>パソコンの出荷台数はいったん減少に転じたが、その後は回復し、2005年度は
+                            2000年度に記録した国内出荷台数のピークを上回った。</td>
+                        <td>パソコンの低価格化が一段と進み、平均販売価格の下落は底が見えず、
+                            平均価格の下落とともに、出荷金額も減少している。</td>
+                    </tr>
+
+                    <tr>
+                        <th>2007年~2010年</th>
+                        <td>世界金融危機が深刻化。</td>
+                        <td>eMachines・Gateway・シャープ・日立製作所・ソーテック・飯山電機など、
+                            メーカーの撤退や買収などの再編が進んだのもこの時期である。</td>
+                    </tr>
+
+                    <tr>
+                        <th>2011年~2015年</th>
+                        <td>パソコンの低価格化は円安やパーツ価格の高騰の影響で下げ止まった。</td>
+                        <td>2013年まではWindows XPのサポート終了に伴う駆け込み需要で販売台数を
+                            維持していたものの、2014年からはそれがなくなり、パソコンの販売台数が急減。</td>
+                    </tr>
+
+                    <tr>
+                        <th>2016年~2019年</th>
+                        <td>Windows 10搭載パソコンの買い替え需要が増加。</td>
+                        <td>省スペースデスクトップ、オールインワンが普及し、ノートの軽量化、薄型化が進んだ。</td>
+                    </tr>
+
+                    <tr>
+                        <th>2020年~</th>
+                        <td>2020年1月中旬以降はWindows 7のサポート終了に伴う買い替え需要が落ち着き、
+                            新型コロナウイルスの影響で出荷台数が大幅に減少した</td>
+                        <td>2020年3月25日に東京都の「外出自粛要請」、4月7日の緊急事態宣言発令後、
+                            在宅勤務、テレワークが拡大しパソコン需要が増加している。</td>
+                    </tr>
+
+                </table>
+            </div>
+
+        </article>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Morijyobi. All rights reserved</p>
+    </footer>
+
+</body>
+
+</html>
