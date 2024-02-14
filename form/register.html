@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,79 +15,83 @@
     <p>必要事項を入力の上、送信ボタンを押してください。</p>
     <form action="#" method="get">
         <table>
-                <tr>
-                    <th><span class="required">ID</span><p>メールアドレス</p></th>
-                    <td><input type="email" name="email" size="30" placeholder="例：　xxx@morijyobi.ac.jp" required><br></td>
+            <tr>
+                <th><span class="required">ID</span>
+                    <p>メールアドレス</p>
+                </th>
+                <td><input type="email" name="email" size="30" placeholder="例：　xxx@morijyobi.ac.jp" required><br></td>
 
-                </tr>
+            </tr>
 
-                <tr>
-                    <th><span class="required">パスワード</span></th>
-                    <td><label for="password">パスワード</span>
-                        <input type="password" id="password" size="30", minlength="8" required>
+            <tr>
+                <th><span class="required">パスワード</span></th>
+                <td><label for="password">パスワード
+                        <input type="password" id="password" size="30" , minlength="8" required>
                         <input type="checkbox">パスワードを表示する
                     </label><br></td>
-                </tr>
-                
-                <tr>
-                    <th><span class="required">氏名</span></th>
-                    <td>姓：<input type="text" name="last_name" placeholder="例：　盛岡" required>
-                        名：<input type="text" name="first_name" placeholder="例：　太郎" required><br>
-                    <br></td>
-                </tr>
-        
-                <tr>
-                    <th>住所</th>
-                    <td>
-                        〒 <input type="text" name="post" size="8" placeholder="000-0000"><br>
-                        　 <input type="text" name="address" readonly placeholder="例：　○○県○○市○○○○"><br>
-                        　 <input type="text" name="stad" placeholder="番地"><br>
-                        　 <input type="text" name="building" size="30" placeholder="建物"><br>
-                    </td>
-                </tr>
-                    
-                <tr>
-                    <th><span class="required">携帯電話番号</span></th>
-                    <td><input type="tel" name="tel" required><br></td>
-                </tr>
-                    
-                <tr>
-                    <th><span class="required">学科・学年</span></th>
-                    <td>
-                        学科：<select name="department" required>
-                            <option value="" >選択してください。</option><br>
-                            <option value="高度情報">高度情報工学科</option><br>
-                            <option value="総合システム">総合システム工学科</option><br>
-                            <option value="情報システム">情報システム科</option><br>
-                        </select>
-                        学年:<select name="year"  required>
-                            <option value="">選択してください。</option><br>
-                            <option value="1">1年生</option><br>
-                            <option value="2">2年生</option><br>
-                            <option value="3">3年生</option><br>
-                            <option value="4">4年生</option><br>
-                        </select><br>
-                    </td>
-                </tr>
+            </tr>
 
-                <tr>
-                    <th><span class="required">お得な情報・クーポン</span></th>
-                    <td>
-                        <input type="radio" name="radio" value="yes" required> 受け取る
-                        <input type="radio" name="radio" value="no"> 受け取らない<br>
-                    </td>
-                </tr>
-                    
-                <tr>
-                    <th>ご意見・ご要望</th>
-                    <td><textarea name="multiple" cols="50" rows="10" maxlength="200"></textarea><br>
-                    </td>
-                </tr>
+            <tr>
+                <th><span class="required">氏名</span></th>
+                <td>姓：<input type="text" name="last_name" placeholder="例：　盛岡" required>
+                    名：<input type="text" name="first_name" placeholder="例：　太郎" required><br>
+                    <br>
+                </td>
+            </tr>
+
+            <tr>
+                <th>住所</th>
+                <td>
+                    〒 <input type="text" name="post" size="8" placeholder="000-0000"><br>
+                    　 <input type="text" name="address" readonly placeholder="例：　○○県○○市○○○○"><br>
+                    　 <input type="text" name="stad" placeholder="番地"><br>
+                    　 <input type="text" name="building" size="30" placeholder="建物"><br>
+                </td>
+            </tr>
+
+            <tr>
+                <th><span class="required">携帯電話番号</span></th>
+                <td><input type="tel" name="tel" required><br></td>
+            </tr>
+
+            <tr>
+                <th><span class="required">学科・学年</span></th>
+                <td>
+                    学科：<select name="department" required>
+                        <option value="">選択してください。</option><br>
+                        <option value="高度情報">高度情報工学科</option><br>
+                        <option value="総合システム">総合システム工学科</option><br>
+                        <option value="情報システム">情報システム科</option><br>
+                    </select>
+                    学年:<select name="year" required>
+                        <option value="">選択してください。</option><br>
+                        <option value="1">1年生</option><br>
+                        <option value="2">2年生</option><br>
+                        <option value="3">3年生</option><br>
+                        <option value="4">4年生</option><br>
+                    </select><br>
+                </td>
+            </tr>
+
+            <tr>
+                <th><span class="required">お得な情報・クーポン</span></th>
+                <td>
+                    <input type="radio" name="radio" value="yes" required> 受け取る
+                    <input type="radio" name="radio" value="no"> 受け取らない<br>
+                </td>
+            </tr>
+
+            <tr>
+                <th>ご意見・ご要望</th>
+                <td><textarea name="multiple" cols="50" rows="10" maxlength="200"></textarea><br>
+                </td>
+            </tr>
         </table>
         <br>
         <button type="submit">送信</button>
         <button type="reset">クリア</button>
-    
-</form>
+
+    </form>
 </body>
+
 </html>

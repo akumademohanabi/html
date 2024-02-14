@@ -1,0 +1,304 @@
+@charset "UTF-8";
+
+
+#member{
+  background-image: url(../img/wrwrd.png);
+  background-repeat: no-repeat;/*繰り返し表示しない*/
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+
+body {
+    font-family: 'Sawarabi Mincho', serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 2;
+    color: white;
+  } 
+
+  .content{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+#wrap{
+  margin-left: auto;
+  margin-top: 5rem;
+}
+
+section{
+  margin-bottom: 2rem;
+}
+
+section h3{
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 500px;
+  color: black;
+}
+
+ main section {
+    background-color:rgba(119,136,153,0.8);
+  }
+
+
+  main h1{
+    text-align: center;
+  }
+  
+  p,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 1px;
+  }
+
+  li{
+    padding-top: 1rem;
+    padding-left: 5rem;
+    text-align: center;
+  }
+  
+  a {
+    color: #3583aa;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    top:0px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .logo img{
+    margin-top: 0.5rem;
+    width: 90px;
+    height: 60px;
+  }
+  
+
+  header .tube{
+    width: 60px;
+    height: 40px;
+    margin: 0;
+  }
+
+  header .nico{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+  }
+
+  header .x{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+  }
+
+
+  .global-nav {
+    display: flex;
+  }
+  
+  .global-nav li {
+    margin: 0 15px;
+    font-size: 25px;
+    list-style: none;
+    font-family: 'Bitter', serif;
+    justify-content: space-between;
+  }
+
+  .picture{
+    max-width: 400px;
+    width: 200px;
+    margin-left: 5rem;
+  }
+  
+  .box{
+    float: left;
+  }
+
+
+.memo{
+  width: 500px;
+  margin: 0 2px;
+  
+}
+
+.memo h4{
+  margin-bottom: 1rem;
+}
+
+.chara{
+  width: 900px;
+}
+
+
+.sidebar{
+  background-color: rgba(119,136,153,0.8);
+  width: 500px;
+  margin-left: 2rem;
+  margin-top: 5rem;
+  position: sticky;
+}
+
+.sidebar li{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+
+.sidebar li a{
+  color: white;
+}
+
+.sidebar h2{
+  text-align: center;
+}
+
+.aside{
+  margin-top: 5rem;
+}
+
+small{
+  font-size: smaller;
+}
+
+footer{
+  text-align: center;
+}
+
+
+
+/*ページトップに戻る*/
+
+html {
+  scroll-behavior: smooth;
+}
+.pagetop {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background: #fff;
+  border: solid 2px #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.pagetop__arrow {
+  height: 10px;
+  width: 10px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: translateY(20%) rotate(-45deg);
+}
+
+
+
+/*キャラ名の横にイメカラ*/
+
+#gr{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid grey;
+}
+
+#os{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #228B22;
+}
+
+#tn{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #d71616;
+}
+
+#ht{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid white;
+  background-color: rgb(192, 190, 190);
+}
+
+#kn{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid 	#00FFFF;
+}
+
+#ut{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid 	#0000CD;
+}
+
+#sho{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid 	#FFFF00;
+}
+
+#ni{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid 	#a09bd8;
+}
+
+#rbr{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid 	#FF00FF;
+}
+
+#zm{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid 	#7FFF00;
+}
+
+#sn{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid 	#00a1ae;
+}
+
+#em{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid 	#8B4513;
+}
+
+#shp{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid 	#8A2BE2;
+}
+
+#ci{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid 	#FFA500;
+}
+
+
+
